@@ -2,7 +2,11 @@
 
 # Random Quote Generator - Flask App
 
-This Flask-based web application leverages Google's LLM Gemini API to generate and display random quotes. The application is fully Dockerized and deployed to Azure, accessible at: https://randomquotes.delightfulflower-389c43dd.westus2.azurecontainerapps.io/
+This Flask-based web application leverages Google's LLM Gemini API to generate and display random quotes. The application is fully Dockerized and deployed to Azure.
+
+
+🌐 [Visit the Random Quote Generator](https://randomquotes.delightfulflower-389c43dd.westus2.azurecontainerapps.io/)
+
 
 ## Features
 
@@ -10,6 +14,7 @@ This Flask-based web application leverages Google's LLM Gemini API to generate a
 - Responsive web interface for displaying quotes
 - Dockerized for easy deployment and portability
 - Deployed to Azure Container Apps for scalability
+- Uses Gunicorn as the WSGI HTTP Server for improved performance
 
 ## Technologies Used
 
@@ -17,6 +22,7 @@ This Flask-based web application leverages Google's LLM Gemini API to generate a
 - **GEMINI API**: Google's LLM Gemini API
 - **Containerization**: Docker
 - **Cloud Platform**: Microsoft Azure (Container Apps)
+- **WSGI HTTP Server**: Gunicorn
 
 ## Prerequisites
 
