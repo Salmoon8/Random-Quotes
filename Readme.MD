@@ -3,7 +3,7 @@
 # Random Quote Generator - Flask App
 
 This Flask-based web application leverages Google's LLM Gemini API to generate and display random quotes. The application is fully Dockerized and deployed to Azure.
-
+![Preview](https://github.com/Salmoon8/Random-Quotes/blob/main/static/css/Screenshot%202024-09-21%201404172.png)
 
 
 ## Features
